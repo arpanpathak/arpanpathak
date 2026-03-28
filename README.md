@@ -1,23 +1,30 @@
-# Hi there 👋
+# Hi there, I'm Arpan Pathak 👋
 
-I'm **Arpan Pathak** — a passionate Software Engineer at Microsoft, based in Redmond, Washington, and living in beautiful Seattle.
+**Computer Science Engineer** | Distributed Systems | High-Performance Infrastructure
 
----
-
-- 💼 **Current Role:** Software Engineer @ Microsoft (Redmond, WA)
-- 🌎 **Location:** Seattle, Washington, USA
-- 🌲 **Nature Lover:** I love exploring the outdoors, hiking, and finding inspiration in the natural world.
-- 👨‍💻 **Tech Interests:** Scalable systems, open-source, developer tools, social good projects, machine learning, computer vision, natural language processing, artificial intelligence, computer science research, mathematics, and physics.
-- 🤝 **Collaboration:** Always open to connecting with like-minded engineers and creators.
-- 🌐 **LinkedIn:** [Arpan Pathak](https://www.linkedin.com/in/arpan-pathak-010631131/)
-- 📺 **YouTube:** [Arpan Pathak](https://www.youtube.com/@ArpanPathak)
+> "Never settle, always refactor"
 
 ---
 
-> "Code is a tool for change, but nature is the ultimate inspiration."
+### 🛠 Technical Stack
+
+* **Core Languages:** Go | C++ | Kotlin | Python
+* **Systems Engineering:** Distributed Systems | OS Internals | Networking Protocols
+* **Research Focus:** Computational Linguistics | Computer Vision | Machine Learning | Deep Learning
+* **Philosophy:** Minimalist, high-performance, and strictly typed codebases.
+
+### 🚀 Projects
+
+* **[kube-goAt](https://github.com/arpanpathak/kube-goAt):** An open-source Infrastructure as Code (IaC) tool written in Go. Focused on simplifying Kubernetes orchestration and bootstrapping clusters with zero friction.
+* **ourlittletribe:** An upcoming event discovery and scheduling platform designed to foster genuine community connections.
+
+### 💼 Engineering Experience
+
+* **Professional History:** 7+ years of experience building resilient, high-throughput backend systems and sovereign cloud infrastructure.
+* **Core Competencies:** Architecting scalable distributed solutions and data governance frameworks.
 
 ---
 
-<!--
-**arpanpathak/arpanpathak** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
--->
+### 🌐 Connectivity
+
+[**LinkedIn**](https://www.linkedin.com/in/arpan-pathak-010631131/) | [**YouTube**](https://www.youtube.com/@ArpanPathak)
