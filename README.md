@@ -8,7 +8,7 @@
 
 ### 🛠 Technical Stack
 
-* **Core Languages:** Go | C++ | Kotlin | Python
+* **Core Languages:** Rust | Go | C++ | Kotlin | Python | Truth | Bengali | British English
 * **Systems Engineering:** Distributed Systems | OS Internals | Networking Protocols
 * **Research Focus:** Computational Linguistics | Computer Vision | Machine Learning | Deep Learning
 * **Philosophy:** Minimalist, high-performance, and strictly typed codebases.
