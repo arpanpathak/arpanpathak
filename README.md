@@ -1,27 +1,25 @@
 ```text
-    ╔═══════════════════════════════════════════════════════════════════════╗
-    ║                                                                       ║
-    ║      █████╗ ██████╗ ██████╗  █████╗ ███╗   ██╗                        ║
-    ║     ██╔══██╗██╔══██╗██╔══██╗██╔══██╗████╗  ██║                        ║
-    ║     ███████║██████╔╝██████╔╝███████║██╔██╗ ██║                        ║
-    ║     ██╔══██║██╔═══╝ ██╔══██╗██╔══██║██║╚██╗██║                        ║
-    ║     ██║  ██║██║     ██║  ██║██║  ██║██║ ╚████║                        ║
-    ║     ╚═╝  ╚═╝╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝   ╚═══╝                       ║
-    ║                                                                       ║
-    ║         ██████╗  █████╗ ████████╗██╗  ██╗ █████╗ ██╗  ██╗             ║
-    ║         ██╔══██╗██╔══██╗╚══██╔══╝██║  ██║██╔══██╗██║ ██╔╝             ║
-    ║         ██████╔╝███████║   ██║   ███████║███████║█████╔╝              ║
-    ║         ██╔═══╝ ██╔══██║   ██║   ██╔══██║██╔══██║██╔═██╗              ║
-    ║         ██║     ██║  ██║   ██║   ██║  ██║██║  ██║██║  ██╗             ║
-    ║         ╚═╝     ╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝             ║
-    ║                                                                       ║
-    ║   Systems Engineer · 8+ yrs · Rust / Go / C++ / Kotlin / Python       ║
-    ║   Distributed Systems · Edge AI · LLM Inference · Cloud Infra         ║
-    ║                                                                       ║
-    ║   ~/arpan-pathak $ whoami                                             ║
-    ║   ~/arpan-pathak $ _                                                  ║
-    ║                                                                       ║
-    ╚═══════════════════════════════════════════════════════════════════════╝
+╭──────────────────────────────────────────────────────────────╮
+│ ● ● ●   arpan@pathak — zsh                                   │
+├──────────────────────────────────────────────────────────────┤
+│                                                              │
+│ ~ $ whoami                                                   │
+│   Arpan Pathak                                               │
+│   Systems Software Engineer · 8+ yrs                         │
+│   Rust · Go · C++ · Kotlin · Python                          │
+│   Amazon → Oracle → Microsoft                                │
+│                                                              │
+│ ~ $ motto                                                    │
+│   "Never settle, always regret,                              │
+│    then refactor the mess."                                  │
+│                                                              │
+│ ~ $ wisdom                                                   │
+│   "Age gele baaghe khai"                                     │
+│    আগে গেলে বাঘে খায়                                         │
+│   (rush ahead and the tiger eats you)                        │
+│                                                              │
+│ ~ $ _                                                        │
+╰──────────────────────────────────────────────────────────────╯
 ```
 
 <h1 align="center">Hi there, I'm Arpan Pathak 👋</h1>
@@ -40,8 +38,8 @@ Rust • Systems Programming • Distributed Systems • Computer Vision
 LLM Inference • Game Physics • Computational Geometry • Kubernetes
 
 $ philosophy
-"Never settle, always refactor" — with zero-allocation, memory-safe,
-strictly-typed, minimalist taste.
+"Never settle, always regret, then refactor the mess."
+"Age gele baaghe khai" — আগে গেলে বাঘে খায়
 ```
 
 ### 🧰 The Stack
@@ -111,7 +109,7 @@ Split a song into vocals/instrumental stems in pure Rust — ONNX Runtime (Demuc
 
 ### 🌐 Connect
 
-[**LinkedIn**](https://www.linkedin.com/in/arpan-pathak-010631131/) · [**YouTube**](https://www.youtube.com/@ArpanPathak) · [**GitHub**](https://github.com/arpanpathak) · 📧 arpan.pathak47@gmail.com
+[**LinkedIn**](https://www.linkedin.com/in/arpan-pathak-272341424/) · [**YouTube**](https://www.youtube.com/@ArpanPathak) · [**GitHub**](https://github.com/arpanpathak) · 📧 arpan.pathak47@gmail.com
 
 ---
 
