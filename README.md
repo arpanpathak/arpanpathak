@@ -60,6 +60,9 @@ $ philosophy
 **🦀 [jobsense-parker](https://github.com/arpanpathak/jobsense-parker)** — `Rust`
 Cut the fluff. A Rust CLI that crawls 80+ job sources, scores them against your resume, and serves matches in your terminal. Built for job hunting that respects your time.
 
+**🐘 [deepseekcoder-multicloud-distiller](https://github.com/arpanpathak/deepseekcoder-multicloud-distiller)** · `Rust` CLI
+An end-to-end knowledge-distillation pipeline in one CLI: provision private DeepSeek Coder VMs across 6 clouds (Azure, GCP, AWS, OCI, DigitalOcean, Hetzner) with Terraform, serve them via Ollama, and distill teacher outputs into clean `{"instruction","output"}` JSONL for fine-tuning. Mission: shrink specialized models until they fit low-power edge devices, with full privacy and data sovereignty. Your data never leaves your own VM. Spot-priced deploys, a cron kill-switch that stops the GPU bill at night, profile-isolated state, typed Ollama client. The logo is an elephant seal, because the elephant in the room is the cloud bill.
+
 **🚗 [driving-civicsense-vision-model](https://github.com/arpanpathak/driving-civicsense-vision-model)** — `Rust`
 On-device AI perception for intersection discipline & lane awareness. Runs entirely on-device (<50ms, no cloud) — the brain behind my *Seeing Machines* book.
 
