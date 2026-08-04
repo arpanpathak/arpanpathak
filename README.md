@@ -1,25 +1,25 @@
 ```text
-╭──────────────────────────────────────────────────────────────╮
-│ ● ● ●   arpan@pathak — zsh                                   │
-├──────────────────────────────────────────────────────────────┤
-│                                                              │
-│ ~ $ whoami                                                   │
-│   Arpan Pathak                                               │
-│   Systems Software Engineer · 8+ yrs                         │
-│   Rust · Go · C++ · Kotlin · Python                          │
-│   Amazon → Oracle → Microsoft                                │
-│                                                              │
-│ ~ $ motto                                                    │
-│   "Never settle, always regret,                              │
-│    then refactor the mess."                                  │
-│                                                              │
-│ ~ $ wisdom                                                   │
-│   "Age gele baaghe khai"                                     │
-│    আগে গেলে বাঘে খায়                                         │
-│   (rush ahead and the tiger eats you)                        │
-│                                                              │
-│ ~ $ _                                                        │
-╰──────────────────────────────────────────────────────────────╯
++--------------------------------------------------------------+
+| 🔴 🟡 🟢   arpan@pathak — zsh                                |
++--------------------------------------------------------------+
+|                                                              |
+| ~ $ whoami                                                   |
+|   Arpan Pathak                                               |
+|   Systems Software Engineer · 8+ yrs                         |
+|   Rust · Go · C++ · Kotlin · Python                          |
+|   Amazon → Oracle → Microsoft                                |
+|                                                              |
+| ~ $ motto                                                    |
+|   "Never settle, always regret,                              |
+|    then refactor the mess."                                  |
+|                                                              |
+| ~ $ wisdom                                                   |
+|   "Age gele baaghe khai"                                     |
+|    আগে গেলে বাঘে খায়                                         |
+|   (rush ahead and the tiger eats you)                        |
+|                                                              |
+| ~ $ _                                                        |
++--------------------------------------------------------------+
 ```
 
 <h1 align="center">Hi there, I'm Arpan Pathak 👋</h1>
