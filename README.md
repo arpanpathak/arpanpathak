@@ -57,43 +57,96 @@ $ philosophy
 
 ### 🚀 Featured Projects
 
-**🦀 [jobsense-parker](https://github.com/arpanpathak/jobsense-parker)** — `Rust`
-Cut the fluff. A Rust CLI that crawls 80+ job sources, scores them against your resume, and serves matches in your terminal. Built for job hunting that respects your time.
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <b>⚡</b><br/>
+      <b><a href="https://github.com/arpanpathak/gpu-parallel-book">gpu-parallel-book</a></b><br/>
+      <sub>CUDA · GPU · Rust · 16-chapter book</sub>
+    </td>
+    <td align="center" width="33%">
+      <b>🚗</b><br/>
+      <b><a href="https://github.com/arpanpathak/driving-civicsense-vision-model">civicsense-vision-model</a></b><br/>
+      <sub>Rust · on-device AI perception</sub>
+    </td>
+    <td align="center" width="33%">
+      <b>📚</b><br/>
+      <b><a href="https://github.com/arpanpathak/seeing-machines-book">seeing-machines-book</a></b><br/>
+      <sub>Python → Rust · CV book</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <b>🦀</b><br/>
+      <b><a href="https://github.com/arpanpathak/jobsense-parker">jobsense-parker</a></b><br/>
+      <sub>Rust · job-hunt CLI</sub>
+    </td>
+    <td align="center">
+      <b>🐘</b><br/>
+      <b><a href="https://github.com/arpanpathak/deepseekcoder-multicloud-distiller">multicloud-distiller</a></b><br/>
+      <sub>Rust · distill LLMs on 6 clouds</sub>
+    </td>
+    <td align="center">
+      <b>🎮</b><br/>
+      <b><a href="https://github.com/arpanpathak/bevy-physics-book">bevy-physics-book</a></b><br/>
+      <sub>Rust · physics in Bevy</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <b>⚙️</b><br/>
+      <b><a href="https://github.com/arpanpathak/cuda-oxide">cuda-oxide</a></b><br/>
+      <sub>Rust · Rust-to-CUDA compiler</sub>
+    </td>
+    <td align="center">
+      <b>☸️</b><br/>
+      <b><a href="https://github.com/arpanpathak/kube-goAt">kube-goAt</a></b><br/>
+      <sub>Go · Kubernetes IaC</sub>
+    </td>
+    <td align="center">
+      <b>🎛️</b><br/>
+      <b><a href="https://github.com/arpanpathak/andross">andross</a></b><br/>
+      <sub>C++20/23 · low-latency Vision/AR SDK</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <b>🔍</b><br/>
+      <b><a href="https://github.com/arpanpathak/systems-programming-design-patterns">systems-patterns</a></b><br/>
+      <sub>Go ⭐ · systems hands-on</sub>
+    </td>
+    <td align="center">
+      <b>🎧</b><br/>
+      <b><a href="https://github.com/arpanpathak/audio-source-seperation">audio-stem-splitter</a></b><br/>
+      <sub>Rust · vocals → stems</sub>
+    </td>
+    <td align="center">
+      <b>🔐</b><br/>
+      <b><a href="https://github.com/arpanpathak/zero-trust-networking-examples">zero-trust-networking</a></b><br/>
+      <sub>Go · Cilium · K8s zero-trust</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <b>🥊</b><br/>
+      <b><a href="https://github.com/arpanpathak/CodingInterviewFightClub_Hustle_600">FightClub_600</a></b><br/>
+      <sub>Interview prep · 5 languages</sub>
+    </td>
+    <td align="center">
+      <b>🧠</b><br/>
+      <b><a href="https://github.com/arpanpathak/AdvancedAlgorithmPatterns">AdvancedAlgoPatterns</a></b><br/>
+      <sub>Kotlin · DSA patterns</sub>
+    </td>
+    <td align="center">
+      <b>➕</b><br/>
+      <b><a href="https://github.com/arpanpathak?tab=repositories">30+ more repos</a></b><br/>
+      <sub>distributed systems · ML · hardware</sub>
+    </td>
+  </tr>
+</table>
 
-**🐘 [deepseekcoder-multicloud-distiller](https://github.com/arpanpathak/deepseekcoder-multicloud-distiller)** · `Rust` CLI
-An end-to-end knowledge-distillation pipeline in one CLI: provision private DeepSeek Coder VMs across 6 clouds (Azure, GCP, AWS, OCI, DigitalOcean, Hetzner) with Terraform, serve them via Ollama, and distill teacher outputs into clean `{"instruction","output"}` JSONL for fine-tuning. Mission: shrink specialized models until they fit low-power edge devices, with full privacy and data sovereignty. Your data never leaves your own VM. Spot-priced deploys, a cron kill-switch that stops the GPU bill at night, profile-isolated state, typed Ollama client. The logo is an elephant seal, because the elephant in the room is the cloud bill.
+> 🏆 **Flagships:** [gpu-parallel-book](https://github.com/arpanpathak/gpu-parallel-book) (CUDA, GPU & parallel programming, Rust + CUDA-Oxide, 16 chapters) · [seeing-machines-book](https://github.com/arpanpathak/seeing-machines-book) (computer vision, Python → bare metal) · [deepseekcoder-multicloud-distiller](https://github.com/arpanpathak/deepseekcoder-multicloud-distiller) (distill LLMs across 6 clouds with full data sovereignty) · [cuda-oxide](https://github.com/arpanpathak/cuda-oxide) (Rust-to-CUDA compiler)
 
-**🚗 [driving-civicsense-vision-model](https://github.com/arpanpathak/driving-civicsense-vision-model)** — `Rust`
-On-device AI perception for intersection discipline & lane awareness. Runs entirely on-device (<50ms, no cloud) — the brain behind my *Seeing Machines* book.
-
-**📚 [seeing-machines-book](https://github.com/arpanpathak/seeing-machines-book)** — 16 chapters
-*Seeing Machines: Deep Learning & Computer Vision from Python to Bare Metal* — a full-stack journey from Python prototyping to bare-metal inference, ending in the CivicSense capstone.
-
-**🎮 [bevy-physics-book](https://github.com/arpanpathak/bevy-physics-book)** — `Rust`
-A comprehensive guide to physics engines in Bevy & Rust — vectors, kinematics, collisions, ECS, and a complete physics sandbox.
-
-**⚡ [cuda-oxide](https://github.com/arpanpathak/cuda-oxide)** — `Rust`
-Experimental Rust-to-CUDA compiler: write SIMT GPU kernels in safe(ish), idiomatic Rust — compiles straight to PTX. No DSLs, no bindings, just Rust.
-
-**☸️ [kube-goAt](https://github.com/arpanpathak/kube-goAt)** — `Go`
-A RISC-inspired, AST-based Infrastructure-as-Code library for Kubernetes in Go — pragmatic, maintainable cloud-native IaC.
-
-**🔍 [systems-programming-design-patterns](https://github.com/arpanpathak/systems-programming-design-patterns)** — `Go` ⭐11
-Hands-on systems programming: I/O, OS, networking, and concurrency patterns.
-
-**🎛️ [andross](https://github.com/arpanpathak/andross)** — `C++20/23`
-A gorgeous SDK for low-latency Vision, Physics, and AR/VR — deterministic execution, smart allocators, no config cruft.
-
-**🎧 [audio-source-seperation](https://github.com/arpanpathak/audio-source-seperation)** — `Rust`
-Split a song into vocals/instrumental stems in pure Rust — ONNX Runtime (Demucs) backend, library + CLI.
-
-**🔐 [zero-trust-networking-examples](https://github.com/arpanpathak/zero-trust-networking-examples)** — hands-on zero-trust, low-overhead Kubernetes networking with Cilium.
-
-**🥊 [CodingInterviewFightClub_Hustle_600](https://github.com/arpanpathak/CodingInterviewFightClub_Hustle_600)** — the interview prep book: Binary Search to System Design, in Kotlin/Java/Python/Rust/C++.
-
-**🧠 [AdvancedAlgorithmPatterns](https://github.com/arpanpathak/AdvancedAlgorithmPatterns)** — DSA patterns in Kotlin.
-
-> …plus [30+ more repos](https://github.com/arpanpathak?tab=repositories): distributed systems case studies, ML notebooks, websocket scaling, QUIC tools, NFC + e-ink hardware, and a Neovim agentic IDE.
 
 ---
 
