@@ -50,7 +50,7 @@ $ philosophy
 | **Systems** | Lock-free data structures, memory safety, kernel/eBPF, low-latency |
 | **Networking** | TCP/IP, UDP, TLS/mTLS, HTTP/2/3, gRPC, QUIC, Cilium, XDP |
 | **Distributed** | Kafka, Flink, Spark, consensus/replication/sharding, CDC |
-| **ML/AI** | PyTorch, TensorFlow, BERT, ONNX Runtime, edge inference, CUDA-Oxide |
+| **ML/AI** | PyTorch, TensorFlow, BERT, ONNX Runtime, edge inference, CUDA |
 | **Cloud** | AWS, GCP, Azure, Kubernetes (EKS/AKS), Terraform, Kubebuilder |
 
 ---
@@ -94,11 +94,6 @@ $ philosophy
   </tr>
   <tr>
     <td align="center">
-      <b>⚙️</b><br/>
-      <b><a href="https://github.com/arpanpathak/cuda-oxide">cuda-oxide</a></b><br/>
-      <sub>Rust · Rust-to-CUDA compiler</sub>
-    </td>
-    <td align="center">
       <b>☸️</b><br/>
       <b><a href="https://github.com/arpanpathak/kube-goAt">kube-goAt</a></b><br/>
       <sub>Go · Kubernetes IaC</sub>
@@ -108,25 +103,18 @@ $ philosophy
       <b><a href="https://github.com/arpanpathak/andross">andross</a></b><br/>
       <sub>C++20/23 · low-latency Vision/AR SDK</sub>
     </td>
-  </tr>
-  <tr>
     <td align="center">
       <b>🔍</b><br/>
       <b><a href="https://github.com/arpanpathak/systems-programming-design-patterns">systems-patterns</a></b><br/>
       <sub>Go ⭐ · systems hands-on</sub>
     </td>
-    <td align="center">
-      <b>🎧</b><br/>
-      <b><a href="https://github.com/arpanpathak/audio-source-seperation">audio-stem-splitter</a></b><br/>
-      <sub>Rust · vocals → stems</sub>
-    </td>
+  </tr>
+  <tr>
     <td align="center">
       <b>🔐</b><br/>
       <b><a href="https://github.com/arpanpathak/zero-trust-networking-examples">zero-trust-networking</a></b><br/>
       <sub>Go · Cilium · K8s zero-trust</sub>
     </td>
-  </tr>
-  <tr>
     <td align="center">
       <b>🥊</b><br/>
       <b><a href="https://github.com/arpanpathak/CodingInterviewFightClub_Hustle_600">FightClub_600</a></b><br/>
@@ -137,16 +125,55 @@ $ philosophy
       <b><a href="https://github.com/arpanpathak/AdvancedAlgorithmPatterns">AdvancedAlgoPatterns</a></b><br/>
       <sub>Kotlin · DSA patterns</sub>
     </td>
+  </tr>
+</table>
+
+> …plus [30+ more repos](https://github.com/arpanpathak?tab=repositories): distributed systems, ML notebooks, music & audio, websocket scaling, QUIC tools, NFC + e-ink hardware, and a Neovim agentic IDE.
+
+
+> 🏆 **Flagships:** [gpu-parallel-book](https://github.com/arpanpathak/gpu-parallel-book) (CUDA, GPU & parallel programming, Rust + CUDA-Oxide, 16 chapters) · [seeing-machines-book](https://github.com/arpanpathak/seeing-machines-book) (computer vision, Python → bare metal) · [deepseekcoder-multicloud-distiller](https://github.com/arpanpathak/deepseekcoder-multicloud-distiller) (distill LLMs across 6 clouds with full data sovereignty) · [bathroom-singing-cli](https://github.com/arpanpathak/bathroom-singing-cli) (bathroom vocals → full production music, in a TUI)
+
+
+### 🎵 Music & Audio
+
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <b>🚿</b><br/>
+      <b><a href="https://github.com/arpanpathak/bathroom-singing-cli">bathroom-singing-cli</a></b><br/>
+      <sub>TUI studio · bathroom vocals → production</sub>
+    </td>
+    <td align="center" width="33%">
+      <b>🌀</b><br/>
+      <b><a href="https://github.com/arpanpathak/nirvoid">nirvoid</a></b><br/>
+      <sub>Rust · audio processing library</sub>
+    </td>
+    <td align="center" width="33%">
+      <b>🎧</b><br/>
+      <b><a href="https://github.com/arpanpathak/audio-source-seperation">audio-stem-splitter</a></b><br/>
+      <sub>Rust · vocals → stems (Demucs)</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <b>🎼</b><br/>
+      <b><a href="https://github.com/arpanpathak/generative_music_art_poetry_models">gen-music-models</a></b><br/>
+      <sub>generative ML · music, art, poetry</sub>
+    </td>
+    <td align="center">
+      <b>🎛️</b><br/>
+      <b><a href="https://github.com/arpanpathak/audio_ml">audio-ml</a></b><br/>
+      <sub>audio EDA · ML models</sub>
+    </td>
     <td align="center">
       <b>➕</b><br/>
-      <b><a href="https://github.com/arpanpathak?tab=repositories">30+ more repos</a></b><br/>
-      <sub>distributed systems · ML · hardware</sub>
+      <b><a href="https://github.com/arpanpathak?tab=repositories">more repos</a></b><br/>
+      <sub>systems · ML · hardware</sub>
     </td>
   </tr>
 </table>
 
-> 🏆 **Flagships:** [gpu-parallel-book](https://github.com/arpanpathak/gpu-parallel-book) (CUDA, GPU & parallel programming, Rust + CUDA-Oxide, 16 chapters) · [seeing-machines-book](https://github.com/arpanpathak/seeing-machines-book) (computer vision, Python → bare metal) · [deepseekcoder-multicloud-distiller](https://github.com/arpanpathak/deepseekcoder-multicloud-distiller) (distill LLMs across 6 clouds with full data sovereignty) · [cuda-oxide](https://github.com/arpanpathak/cuda-oxide) (Rust-to-CUDA compiler)
-
+---
 
 ---
 
