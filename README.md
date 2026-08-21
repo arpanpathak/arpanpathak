@@ -26,13 +26,23 @@
 <h3 align="center">Systems Software Engineer — I build fast things that don't break</h3>
 
 <p align="center">
+  <b>🛠 Languages</b><br/>
   <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust"/>
   <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++"/>
   <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go"/>
   <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin"/>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" alt="C"/>
+</p>
+
+<p align="center">
+  <b>⚙️ Systems · Edge AI · Cloud</b><br/>
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"/>
   <img src="https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="CUDA"/>
+  <img src="https://img.shields.io/badge/TensorRT-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="TensorRT"/>
   <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
   <img src="https://img.shields.io/badge/eBPF-0A0A0A?style=for-the-badge&logo=linux&logoColor=white" alt="eBPF"/>
   <img src="https://img.shields.io/badge/Ollama-Local%20LLMs-181717?style=for-the-badge&logo=ollama&logoColor=white" alt="Ollama"/>
   <img src="https://img.shields.io/badge/NVIDIA%20Jetson-Edge%20AI-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="NVIDIA Jetson"/>
@@ -41,7 +51,6 @@
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=arpanpathak&style=for-the-badge&color=ff7a45" alt="Profile views"/>
   <img src="https://img.shields.io/github/followers/arpanpathak?style=for-the-badge&logo=github&color=58c4ff" alt="GitHub followers"/>
-  <img src="https://img.shields.io/badge/Open%20to%20Work-H1B%20Transfer-6dffa4?style=for-the-badge" alt="Open to work"/>
 </p>
 
 ---
@@ -80,6 +89,15 @@ $ philosophy
   <a href="https://github.com/arpanpathak/openbatrangs/releases"><img src="https://img.shields.io/badge/Download-Binaries-58c4ff?style=for-the-badge" alt="Download"/></a>
   <a href="https://github.com/arpanpathak/openbatrangs/blob/main/README.md"><img src="https://img.shields.io/badge/Readme-Quickstart-6dffa4?style=for-the-badge" alt="Readme"/></a>
 </p>
+
+---
+
+### ⚡ Quick Facts
+
+- 🔭 **Now building:** [openBatarangs](https://github.com/arpanpathak/openbatrangs) — local-first agentic coding CLI for Jetson & Ollama
+- 🌱 **Deep-diving:** CUDA-Oxide, eBPF/Cilium, edge LLM inference, lock-free systems
+- 💬 **Ask me about:** Rust, systems programming, GPU kernels, local LLMs, Kubernetes
+- 📫 **Reach me:** [arpan.pathak47@gmail.com](mailto:arpan.pathak47@gmail.com)
 
 ---
 
