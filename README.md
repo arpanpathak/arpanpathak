@@ -92,11 +92,21 @@ $ philosophy
 
 ---
 
-### 🚗 Also Building: [Driving CivicSense](https://github.com/arpanpathak/driving-civicsense-vision-model)
+### 🚗 Now Building: [Driving CivicSense](https://github.com/arpanpathak/driving-civicsense-vision-model)
+
+<p align="center">
+  <a href="https://github.com/arpanpathak/driving-civicsense-vision-model">
+    <img src="https://raw.githubusercontent.com/arpanpathak/driving-civicsense-vision-model/main/assets/logo.svg" alt="Driving CivicSense logo" width="260"/>
+  </a>
+</p>
 
 > **Edge-AI co-pilot for road safety.** 100% on-device perception, privacy-first, zero video leaves the car. Runs on NVIDIA Jetson Orin with TensorRT.
 
-📄 **[Read the research paper](https://arpanpathak.github.io/driving-civicsense-vision-model/)** · ⭐ **[Main repo](https://github.com/arpanpathak/driving-civicsense-vision-model)**
+<p align="center">
+  <a href="https://arpanpathak.github.io/driving-civicsense-vision-model/"><img src="https://img.shields.io/badge/📄-Research%20Paper-58c4ff?style=for-the-badge" alt="Research paper"/></a>
+  <a href="https://github.com/arpanpathak/driving-civicsense-vision-model"><img src="https://img.shields.io/badge/GitHub-Main%20Repo-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+  <a href="https://arpanpathak.github.io/"><img src="https://img.shields.io/badge/Portfolio-Live%20Demo-6dffa4?style=for-the-badge" alt="Portfolio"/></a>
+</p>
 
 | Module | What it does |
 |---|---|
