@@ -92,9 +92,25 @@ $ philosophy
 
 ---
 
+### 🚗 Also Building: [Driving CivicSense](https://github.com/arpanpathak/driving-civicsense-vision-model)
+
+> **Edge-AI co-pilot for road safety.** 100% on-device perception, privacy-first, zero video leaves the car. Runs on NVIDIA Jetson Orin with TensorRT.
+
+📄 **[Read the research paper](https://arpanpathak.github.io/driving-civicsense-vision-model/)** · ⭐ **[Main repo](https://github.com/arpanpathak/driving-civicsense-vision-model)**
+
+| Module | What it does |
+|---|---|
+| [driving-civicsense-vision-model](https://github.com/arpanpathak/driving-civicsense-vision-model) | Main repo: YOLOv8/v11 INT8 → TensorRT (~12 ms), kinematic decision engine, Kalman + Deep SORT, voice alerts, research paper + ISO 26262 safety study |
+| [civicsense-pi-stream](https://github.com/arpanpathak/civicsense-pi-stream) | Capture layer: Rust MJPEG + UDP live dash-cam on Raspberry Pi Zero 2 W — hotspot mode, ~50 MB RAM |
+| [civicsense-stream-client](https://github.com/arpanpathak/civicsense-stream-client) | Perception layer: pure-Rust YOLOv8n with HuggingFace Candle — no Python, no ONNX Runtime |
+| [civicsense-companion](https://github.com/arpanpathak/civicsense-companion) | Human layer: Kotlin Multiplatform app (Compose + SwiftUI) with gRPC real-time alerts |
+| [driving-civic-sense-data-crowd](https://github.com/arpanpathak/driving-civic-sense-data-crowd) | Data layer: MIT-licensed 7-class YOLO labels, ground-truth validators, public-dataset aggregation |
+
+---
+
 ### ⚡ Quick Facts
 
-- 🔭 **Now building:** [openBatarangs](https://github.com/arpanpathak/openbatrangs) — local-first agentic coding CLI for Jetson & Ollama
+- 🔭 **Now building:** [openBatarangs](https://github.com/arpanpathak/openbatrangs) — local-first agentic coding CLI for Jetson & Ollama · [Driving CivicSense](https://github.com/arpanpathak/driving-civicsense-vision-model) — edge-AI road safety
 - 🌱 **Deep-diving:** CUDA-Oxide, eBPF/Cilium, edge LLM inference, lock-free systems
 - 💬 **Ask me about:** Rust, systems programming, GPU kernels, local LLMs, Kubernetes
 - 📫 **Reach me:** [arpan.pathak47@gmail.com](mailto:arpan.pathak47@gmail.com)
@@ -207,7 +223,7 @@ $ philosophy
 
 > …plus [40+ more repos](https://github.com/arpanpathak?tab=repositories): distributed systems, ML notebooks, music & audio, websocket scaling, QUIC tools, NFC + e-ink hardware, and a Neovim agentic IDE.
 
-> 🏆 **Flagships:** [openBatarangs](https://github.com/arpanpathak/openbatrangs) (local-first agentic coding CLI for Jetson + Ollama) · [gpu-parallel-book](https://github.com/arpanpathak/gpu-parallel-book) (CUDA, GPU & parallel programming, Rust + CUDA-Oxide, 16 chapters) · [seeing-machines-book](https://github.com/arpanpathak/seeing-machines-book) (computer vision, Python → bare metal) · [deepseekcoder-multicloud-distiller](https://github.com/arpanpathak/deepseekcoder-multicloud-distiller) (distill LLMs across 6 clouds with full data sovereignty)
+> 🏆 **Flagships:** [openBatarangs](https://github.com/arpanpathak/openbatrangs) (local-first agentic coding CLI for Jetson + Ollama) · [driving-civicsense-vision-model](https://github.com/arpanpathak/driving-civicsense-vision-model) (edge-AI road safety, 100% on-device, research paper + submodule pipeline) · [gpu-parallel-book](https://github.com/arpanpathak/gpu-parallel-book) (CUDA, GPU & parallel programming, Rust + CUDA-Oxide, 16 chapters) · [seeing-machines-book](https://github.com/arpanpathak/seeing-machines-book) (computer vision, Python → bare metal) · [deepseekcoder-multicloud-distiller](https://github.com/arpanpathak/deepseekcoder-multicloud-distiller) (distill LLMs across 6 clouds with full data sovereignty)
 
 ### 🎵 Music & Audio
 
