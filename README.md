@@ -116,6 +116,18 @@ $ philosophy
 | [civicsense-companion](https://github.com/arpanpathak/civicsense-companion) | Human layer: Kotlin Multiplatform app (Compose + SwiftUI) with gRPC real-time alerts |
 | [driving-civic-sense-data-crowd](https://github.com/arpanpathak/driving-civic-sense-data-crowd) | Data layer: MIT-licensed 7-class YOLO labels, ground-truth validators, public-dataset aggregation |
 
+### 🦀 New: [cuda-oxide-demo](https://github.com/arpanpathak/cuda-oxide-demo)
+
+> Idiomatic CUDA kernels written in Rust with CUDA-Oxide, benchmarked on
+> Jetson Orin: SAXPY, dot product, tiled matmul, and a Laplace/Jacobi PDE
+> solver. Includes a detailed article and a GitHub Pages book chapter.
+
+| Link | Where |
+|---|---|
+| [cuda-oxide-demo](https://github.com/arpanpathak/cuda-oxide-demo) | Main repository |
+| [CUDA_RUST_JETSON_BENCHMARKS.md](https://github.com/arpanpathak/cuda-oxide-demo/blob/main/CUDA_RUST_JETSON_BENCHMARKS.md) | Detailed article |
+| [GPU Parallel Programming Book](https://arpanpathak.github.io/gpu-parallel-book/) | Book chapter: Benchmarking CUDA-Oxide on Jetson Orin |
+
 ---
 
 ### ⚡ Quick Facts
@@ -227,6 +239,14 @@ $ philosophy
       <b>🕸️</b><br/>
       <b><a href="https://github.com/arpanpathak/ebpf-rust-networking-book">ebpf-rust-networking-book</a></b><br/>
       <sub>Rust · eBPF/Cilium/K8s book</sub>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="3" align="center">
+      <b>🦀</b><br/>
+      <b><a href="https://github.com/arpanpathak/cuda-oxide-demo">cuda-oxide-demo</a></b><br/>
+      <sub>Rust · CUDA-Oxide · Jetson CPU-vs-GPU benchmarks + Laplace/Jacobi solver</sub><br/>
+      <sub><a href="https://arpanpathak.github.io/gpu-parallel-book/">book chapter</a></sub>
     </td>
   </tr>
 </table>
