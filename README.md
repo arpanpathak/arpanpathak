@@ -132,7 +132,7 @@ $ philosophy
 
 ### ⚡ Quick Facts
 
-- 🔭 **Now building:** [openBatarangs](https://github.com/arpanpathak/openbatrangs) — local-first agentic coding CLI for Jetson & Ollama · [Driving CivicSense](https://github.com/arpanpathak/driving-civicsense-vision-model) — edge-AI road safety
+- 🔭 **Now building:** [openBatarangs](https://github.com/arpanpathak/openbatrangs) — local-first agentic coding CLI for Jetson & Ollama · [Driving CivicSense](https://github.com/arpanpathak/driving-civicsense-vision-model) — edge-AI road safety · [grungeGPT](https://github.com/arpanpathak/grungeGPT) — educational from-scratch GPT in Rust
 - 🌱 **Deep-diving:** CUDA-Oxide, eBPF/Cilium, edge LLM inference, lock-free systems
 - 💬 **Ask me about:** Rust, systems programming, GPU kernels, local LLMs, Kubernetes
 - 📫 **Reach me:** [arpan.pathak47@gmail.com](mailto:arpan.pathak47@gmail.com)
@@ -242,7 +242,12 @@ $ philosophy
     </td>
   </tr>
   <tr>
-    <td colspan="3" align="center">
+    <td align="center">
+      <b>🎸</b><br/>
+      <b><a href="https://github.com/arpanpathak/grungeGPT">grungeGPT</a></b><br/>
+      <sub>Rust · from-scratch GPT + BPE + GGUF/Ollama</sub>
+    </td>
+    <td colspan="2" align="center">
       <b>🦀</b><br/>
       <b><a href="https://github.com/arpanpathak/cuda-oxide-demo">cuda-oxide-demo</a></b><br/>
       <sub>Rust · CUDA-Oxide · Jetson CPU-vs-GPU benchmarks + Laplace/Jacobi solver</sub><br/>
