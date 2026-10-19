@@ -1,15 +1,15 @@
 <div align="center">
-  <img src="assets/hero.svg" alt="Arpan Pathak — Systems Software Engineer" width="100%"/>
+  <img src="assets/hero.svg" alt="Arpan Pathak, Systems Software Engineer" width="100%"/>
 </div>
 
 <p align="center">
-  <b>Systems Software Engineer</b> · Amazon → Oracle → Microsoft<br/>
-  Rust · C++ · Go · CUDA · Kubernetes · eBPF — <i>I build fast things that don't break.</i>
+  <b>Systems Software Engineer</b> · Mindfire Solutions → Razorpay → Amazon → Oracle → Microsoft<br/>
+  Rust · C++ · Go · CUDA · Kubernetes · eBPF
 </p>
 
 <p align="center">
   <i>"Never settle, always regret, then refactor the mess."</i> 🐯
-  <i>"Age gele baaghe khai"</i> — আগে গেলে বাঘে খায়: rush ahead, and the tiger eats you.
+  <i>"Age gele baaghe khai"</i> (আগে গেলে বাঘে খায়): rush ahead, and the tiger eats you.
 </p>
 
 <p align="center">
@@ -42,16 +42,11 @@
   <img src="https://img.shields.io/badge/Repos-66%2B-7F52FF?style=for-the-badge&logo=github&logoColor=white" alt="Repos"/>
 </p>
 
-<p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=arpanpathak&show_icons=true&count_private=true&hide_border=true&bg_color=0B1220&title_color=FF9E6D&text_color=C9D4E3&icon_color=58C4FF&ring_color=FF7A45" alt="GitHub stats"/>
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=arpanpathak&layout=compact&hide_border=true&bg_color=0B1220&title_color=FF9E6D&text_color=C9D4E3&card_width=360" alt="Top languages"/>
-</p>
-
 ---
 
-## ⚡ Flagships — Built & Shipping
+## ⚡ Flagships
 
-### 🐯 Thor Thunder Tigress Platform — the cub lives on a Jetson AGX Thor
+### 🐯 Thor Thunder Tigress Platform: the cub lives on a Jetson AGX Thor
 
 <p align="center">
   <a href="https://github.com/arpanpathak/thor-thunder-tigress-platform">
@@ -67,7 +62,7 @@
   <a href="https://voltforge.tech"><img src="https://img.shields.io/badge/Live-voltforge.tech-58c4ff?style=for-the-badge" alt="Live at voltforge.tech"/></a>
 </p>
 
-> Teaching a local model on a Jetson AGX Thor to **stop writing AI slop** — in prose and in Rust. Shipped: a 13,114-example training set (6.5M tokens, 35 sources), the `spark` slop checker that scores any model's output, and **the Cub** — a chat page + OpenAI/Anthropic-compatible API serving Qwen3.6 35B and Nemotron 3.5 Lightning on TensorRT-LLM, so tools like [openBatarangs](https://github.com/arpanpathak/openbatrangs) and Claude Code can code against it. The tigress fine-tunes next.
+> Teaching a local model on a Jetson AGX Thor to **stop writing AI slop**, in prose and in Rust. Shipped: a 13,114-example training set (6.5M tokens, 35 sources), the `spark` slop checker that scores any model's output, and **the Cub**, a chat page + OpenAI/Anthropic-compatible API serving Qwen3.6 35B and Nemotron 3.5 Lightning on TensorRT-LLM, so tools like [openBatarangs](https://github.com/arpanpathak/openbatrangs) and Claude Code can code against it. The tigress fine-tunes next.
 
 ### 📖 The Books
 
@@ -78,7 +73,7 @@
     <img src="https://raw.githubusercontent.com/arpanpathak/gpu-parallel-book/main/book/src/art/cover.svg" alt="GPU book cover" height="150"/>
   </a><br/>
   <b><a href="https://arpanpathak.github.io/gpu-parallel-book/">GPU Parallel Programming from First Principles</a></b><br/>
-  <sub>CUDA C++ and Rust (cuda-oxide) kernels side by side, clickable SVG architecture diagrams — warps, SMs, memory tiers. Reduction, scan, tiled matmul, image-processing capstone. Tested on Jetson AGX Thor &amp; Orin NX.</sub><br/><br/>
+  <sub>CUDA C++ and Rust (cuda-oxide) kernels side by side, clickable SVG architecture diagrams: warps, SMs, memory tiers. Reduction, scan, tiled matmul, image-processing capstone. Tested on Jetson AGX Thor &amp; Orin NX.</sub><br/><br/>
   <a href="https://github.com/arpanpathak/gpu-parallel-book"><img src="https://img.shields.io/github/stars/arpanpathak/gpu-parallel-book?style=for-the-badge&color=ff7a45" alt="Stars"/></a>
   <a href="https://arpanpathak.github.io/gpu-parallel-book/"><img src="https://img.shields.io/badge/Read_online-6dffa4?style=for-the-badge" alt="Read online"/></a>
   <a href="https://github.com/arpanpathak/gpu-parallel-book"><img src="https://img.shields.io/badge/Tested_on-Jetson_AGX_Thor_%26_Orin_NX-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="Tested on Jetson"/></a>
@@ -86,7 +81,7 @@
 <td width="50%" align="center" valign="top">
   <b style="font-size:44px">📚</b><br/>
   <b><a href="https://arpanpathak.github.io/cracking-the-systems-programming-interview/">Cracking the Systems Programming Interview</a></b><br/>
-  <sub>Code-first books &amp; labs for systems engineers: <i>Distributed Systems from the Ground Up</i> (28 chapters + a key-value store built in Rust), <i>Democratizing Linux: A Pipe Dream</i>, <i>GPU-Accelerated Kubernetes</i>, the Rust interview book, a Rust lab, and a Kubernetes operator — from the kernel up.</sub><br/><br/>
+  <sub>Code-first books &amp; labs for systems engineers: <i>Distributed Systems from the Ground Up</i> (28 chapters + a key-value store built in Rust), <i>Democratizing Linux: A Pipe Dream</i>, <i>GPU-Accelerated Kubernetes</i>, the Rust interview book, a Rust lab, and a Kubernetes operator.</sub><br/><br/>
   <a href="https://github.com/arpanpathak/cracking-the-systems-programming-interview"><img src="https://img.shields.io/github/stars/arpanpathak/cracking-the-systems-programming-interview?style=for-the-badge&color=ff7a45" alt="Stars"/></a>
   <a href="https://arpanpathak.github.io/cracking-the-systems-programming-interview/"><img src="https://img.shields.io/badge/Read_online-6dffa4?style=for-the-badge" alt="Read online"/></a>
   <a href="https://github.com/arpanpathak/cracking-the-systems-programming-interview"><img src="https://img.shields.io/github/license/arpanpathak/cracking-the-systems-programming-interview?style=for-the-badge&color=181717" alt="License"/></a>
@@ -109,16 +104,16 @@
   <a href="https://github.com/arpanpathak/openbatrangs/blob/main/README.md"><img src="https://img.shields.io/badge/Quickstart-6dffa4?style=for-the-badge" alt="Quickstart"/></a>
 </p>
 
-> **Agentic coding CLI for local models** — auto-discovers the best Ollama / TensorRT / llama.cpp model on Jetson and edge hardware, then reads, edits, and verifies code with tools. No cloud, no manual model ops.
+> **Agentic coding CLI for local models**: auto-discovers the best Ollama / TensorRT / llama.cpp model on Jetson and edge hardware, then reads, edits, and verifies code with tools. No cloud, no manual model ops.
 
-### 🚗 Driving CivicSense — shipped
+### 🚗 Driving CivicSense: shipped
 
 <p align="center">
   <a href="https://github.com/arpanpathak/driving-civicsense-vision-model"><img src="https://img.shields.io/github/stars/arpanpathak/driving-civicsense-vision-model?style=for-the-badge&color=ff7a45" alt="Stars"/></a>
   <a href="https://arpanpathak.github.io/driving-civicsense-vision-model/"><img src="https://img.shields.io/badge/Research_paper-58c4ff?style=for-the-badge" alt="Research paper"/></a>
 </p>
 
-> Edge-AI road safety, **100% on-device**: YOLOv8/v11 → TensorRT (~12 ms) on Jetson Orin, kinematic decision engine, Kalman + Deep SORT, voice alerts — zero video leaves the car. [vision model](https://github.com/arpanpathak/driving-civicsense-vision-model) · [pi-stream](https://github.com/arpanpathak/civicsense-pi-stream) · [stream-client](https://github.com/arpanpathak/civicsense-stream-client) · [companion](https://github.com/arpanpathak/civicsense-companion) · [data-crowd](https://github.com/arpanpathak/driving-civic-sense-data-crowd)
+> Edge-AI road safety, **100% on-device**: YOLOv8/v11 → TensorRT (~12 ms) on Jetson Orin, kinematic decision engine, Kalman + Deep SORT, voice alerts, zero video leaves the car. [vision model](https://github.com/arpanpathak/driving-civicsense-vision-model) · [pi-stream](https://github.com/arpanpathak/civicsense-pi-stream) · [stream-client](https://github.com/arpanpathak/civicsense-stream-client) · [companion](https://github.com/arpanpathak/civicsense-companion) · [data-crowd](https://github.com/arpanpathak/driving-civic-sense-data-crowd)
 
 ### 📚 More books on the shelf
 
@@ -243,4 +238,4 @@
 
 ---
 
-*Currently: teaching the Thor Tigress Cub on a Jetson AGX Thor to stop writing AI slop — shipping openBatarangs — and writing books that teach it all from first principles.*
+*Currently: teaching the Thor Tigress Cub on a Jetson AGX Thor to stop writing AI slop, shipping openBatarangs, and writing books that teach it all from first principles.*
