@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-label="Arpan Pathak — Systems Software Engineer. Terminal window with whoami, motto, wisdom and thor-tigress-serve">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1220"/>
+      <stop offset="0.55" stop-color="#0D1424"/>
+      <stop offset="1" stop-color="#101828"/>
+    </linearGradient>
+    <radialGradient id="glowCyan" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#58C4FF" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#58C4FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowAmber" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FF7A45" stop-opacity="0.13"/>
+      <stop offset="1" stop-color="#FF7A45" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gName" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F8FAFC"/>
+      <stop offset="1" stop-color="#93A9C8"/>
+    </linearGradient>
+    <linearGradient id="gAccent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#58C4FF"/>
+      <stop offset="0.5" stop-color="#7F8FE8"/>
+      <stop offset="1" stop-color="#FF7A45"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#1E2A3E" stroke-opacity="0.35" stroke-width="1"/>
+    </pattern>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="14" stdDeviation="20" flood-color="#000000" flood-opacity="0.55"/>
+    </filter>
+  </defs>
+
+  <!-- background -->
+  <rect width="1200" height="400" rx="16" fill="url(#bg)"/>
+  <circle cx="985" cy="40" r="380" fill="url(#glowCyan)"/>
+  <circle cx="120" cy="410" r="330" fill="url(#glowAmber)"/>
+  <rect width="1200" height="400" fill="url(#grid)"/>
+
+  <!-- left column -->
+  <text x="64" y="114" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="5" fill="#FF9E6D">S Y S T E M S   E N G I N E E R</text>
+
+  <text x="64" y="178" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="62" font-weight="700" fill="url(#gName)">Arpan Pathak</text>
+
+  <text x="64" y="212" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="22" fill="#C9D4E3">I build fast things that don't break.</text>
+
+  <text x="64" y="241" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="17" fill="#8B9BB4">Rust · C++ · Go · CUDA · Kubernetes · eBPF</text>
+
+  <!-- chips -->
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#E6EDF6">
+    <rect x="64" y="268" width="86" height="34" rx="17" fill="#1B2433" stroke="#2A3748"/>
+    <circle cx="79" cy="285" r="4" fill="#CE422B"/>
+    <text x="91" y="290">Rust</text>
+
+    <rect x="162" y="268" width="96" height="34" rx="17" fill="#1B2433" stroke="#2A3748"/>
+    <circle cx="177" cy="285" r="4" fill="#76B900"/>
+    <text x="189" y="290">CUDA</text>
+
+    <rect x="270" y="268" width="150" height="34" rx="17" fill="#1B2433" stroke="#2A3748"/>
+    <circle cx="285" cy="285" r="4" fill="#326CE5"/>
+    <text x="297" y="290">Kubernetes</text>
+
+    <rect x="432" y="268" width="88" height="34" rx="17" fill="#1B2433" stroke="#2A3748"/>
+    <circle cx="447" cy="285" r="4" fill="#E8590C"/>
+    <text x="459" y="290">eBPF</text>
+  </g>
+
+  <text x="64" y="340" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#8B9BB4">Amazon → Oracle → Microsoft</text>
+
+  <!-- terminal window -->
+  <g filter="url(#shadow)">
+    <rect x="600" y="52" width="540" height="296" rx="14" fill="#0C1526" stroke="#26314A" stroke-width="1.5"/>
+    <path d="M600 66 A14 14 0 0 1 614 52 L1126 52 A14 14 0 0 1 1140 66 L1140 86 L600 86 Z" fill="#10192B"/>
+    <circle cx="622" cy="69" r="5" fill="#FF5F56"/>
+    <circle cx="640" cy="69" r="5" fill="#FFBD2E"/>
+    <circle cx="658" cy="69" r="5" fill="#27C93F"/>
+    <text x="870" y="73" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#7A8BA6">arpan@pathak — zsh</text>
+  </g>
+
+  <!-- terminal content -->
+  <g font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15">
+    <text x="620" y="110" fill="#3FB950"><tspan fill="#3FB950">~ $ </tspan><tspan fill="#E6EDF6">whoami</tspan></text>
+    <text x="620" y="135" fill="#8B9BB4">arpan pathak — systems engineer</text>
+    <text x="620" y="160" fill="#3FB950"><tspan fill="#3FB950">~ $ </tspan><tspan fill="#E6EDF6">cat motto.txt</tspan></text>
+    <text x="620" y="185" fill="#94A3B8">"Never settle, always regret,</text>
+    <text x="620" y="210" fill="#94A3B8"> then refactor the mess."</text>
+    <text x="620" y="235" fill="#3FB950"><tspan fill="#3FB950">~ $ </tspan><tspan fill="#E6EDF6">cat wisdom.txt</tspan></text>
+    <text x="620" y="260" fill="#94A3B8">"Age gele baaghe khai" — rush ahead, the tiger eats</text>
+    <text x="620" y="285" fill="#3FB950"><tspan fill="#3FB950">~ $ </tspan><tspan fill="#E6EDF6">thor-tigress-serve --list</tspan></text>
+    <text x="620" y="310" fill="#8B9BB4">qwen3.6-35b <tspan fill="#3FB950">✓</tspan>  nemotron-3.5 <tspan fill="#3FB950">✓</tspan> <tspan fill="#5A6B84">· TensorRT-LLM</tspan></text>
+    <text x="620" y="335" fill="#3FB950">~ $ </text>
+    <rect x="658" y="322" width="9" height="16" rx="1.5" fill="#E6EDF6"/>
+  </g>
+
+  <!-- bottom accent -->
+  <rect x="0" y="394" width="1200" height="6" fill="url(#gAccent)" opacity="0.9"/>
+</svg>

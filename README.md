@@ -1,35 +1,23 @@
-```text
-+--------------------------------------------------------------+
-| 🔴 🟡 🟢   arpan@pathak — zsh                               |
-+--------------------------------------------------------------+
-|                                                              |
-| ~ $ whoami                                                   |
-|   Arpan Pathak                                               |
-|   Systems Software Engineer · 8+ yrs                         |
-|   Rust · Go · C++ · Kotlin · Python                          |
-|   Amazon → Oracle → Microsoft                                |
-|                                                              |
-| ~ $ motto                                                    |
-|   "Never settle, always regret,                              |
-|    then refactor the mess."                                  |
-|                                                              |
-| ~ $ wisdom                                                   |
-|   "Age gele baaghe khai"                                     |
-|    আগে গেলে বাঘে খায়                                          |
-|   (rush ahead and the tiger eats you)                        |
-|                                                              |
-| ~ $ _                                                        |
-+--------------------------------------------------------------+
-```
+<div align="center">
+  <img src="assets/hero.svg" alt="Arpan Pathak — Systems Software Engineer" width="100%"/>
+</div>
 
-<h1 align="center">Hi there, I'm Arpan Pathak 👋</h1>
-<h3 align="center">Systems Software Engineer — I build fast things that don't break</h3>
+<p align="center">
+  <b>Systems Software Engineer</b> · Amazon → Oracle → Microsoft<br/>
+  Rust · C++ · Go · CUDA · Kubernetes · eBPF — <i>I build fast things that don't break.</i>
+</p>
+
+<p align="center">
+  <i>"Never settle, always regret, then refactor the mess."</i> 🐯
+  <i>"Age gele baaghe khai"</i> — আগে গেলে বাঘে খায়: rush ahead, and the tiger eats you.
+</p>
 
 <p align="center">
   <b>🛠 Languages</b><br/>
   <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust"/>
   <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++"/>
   <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go"/>
+  <img src="https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="CUDA"/>
   <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin"/>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
@@ -39,103 +27,187 @@
 <p align="center">
   <b>⚙️ Systems · Edge AI · Cloud</b><br/>
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"/>
-  <img src="https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="CUDA"/>
   <img src="https://img.shields.io/badge/TensorRT-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="TensorRT"/>
+  <img src="https://img.shields.io/badge/NVIDIA%20Jetson-Edge%20AI-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="NVIDIA Jetson"/>
   <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes"/>
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
   <img src="https://img.shields.io/badge/eBPF-0A0A0A?style=for-the-badge&logo=linux&logoColor=white" alt="eBPF"/>
   <img src="https://img.shields.io/badge/Ollama-Local%20LLMs-181717?style=for-the-badge&logo=ollama&logoColor=white" alt="Ollama"/>
-  <img src="https://img.shields.io/badge/NVIDIA%20Jetson-Edge%20AI-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="NVIDIA Jetson"/>
 </p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=arpanpathak&style=for-the-badge&color=ff7a45" alt="Profile views"/>
   <img src="https://img.shields.io/github/followers/arpanpathak?style=for-the-badge&logo=github&color=58c4ff" alt="GitHub followers"/>
+  <img src="https://img.shields.io/github/stars/arpanpathak?style=for-the-badge&logo=github&label=Stars&color=6dffa4" alt="Total stars"/>
+  <img src="https://img.shields.io/badge/Repos-66%2B-7F52FF?style=for-the-badge&logo=github&logoColor=white" alt="Repos"/>
+</p>
+
+<p align="center">
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=arpanpathak&show_icons=true&count_private=true&hide_border=true&bg_color=0B1220&title_color=FF9E6D&text_color=C9D4E3&icon_color=58C4FF&ring_color=FF7A45" alt="GitHub stats"/>
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=arpanpathak&layout=compact&hide_border=true&bg_color=0B1220&title_color=FF9E6D&text_color=C9D4E3&card_width=360" alt="Top languages"/>
 </p>
 
 ---
 
-```bash
-$ whoami
-Systems engineer, 8+ years: Amazon → Oracle → Microsoft.
-I make databases faster (lock-free), networks safer (eBPF/Cilium),
-and ML inference cheaper (100ms pipelines, 5k QPS serving).
+## ⚡ Flagships — Built & Shipping
 
-$ cat interests.txt
-Rust • Systems Programming • Distributed Systems • Computer Vision
-LLM Inference • Game Physics • Computational Geometry • Kubernetes
-Local-First AI • Agentic Coding • Edge Devices • Open Source
+### 🐯 Thor Thunder Tigress Platform — the cub lives on a Jetson AGX Thor
 
-$ philosophy
-"Never settle, always regret, then refactor the mess."
-"Age gele baaghe khai" — আগে গেলে বাঘে খায়
-```
+<p align="center">
+  <a href="https://github.com/arpanpathak/thor-thunder-tigress-platform">
+    <img src="https://raw.githubusercontent.com/arpanpathak/thor-thunder-tigress-platform/main/book/src/art/cub.svg" alt="The Thor Tigress Cub" width="150"/>
+  </a>
+</p>
 
----
+<p align="center">
+  <a href="https://github.com/arpanpathak/thor-thunder-tigress-platform"><img src="https://img.shields.io/github/stars/arpanpathak/thor-thunder-tigress-platform?style=for-the-badge&color=ff7a45" alt="Stars"/></a>
+  <a href="https://github.com/arpanpathak/thor-thunder-tigress-platform/actions/workflows/ci.yml"><img src="https://raw.githubusercontent.com/arpanpathak/thor-thunder-tigress-platform/badges/ci.svg" alt="CI"/></a>
+  <a href="https://github.com/arpanpathak/thor-thunder-tigress-platform/blob/badges/summary.json"><img src="https://raw.githubusercontent.com/arpanpathak/thor-thunder-tigress-platform/badges/coverage.svg" alt="Coverage"/></a>
+  <a href="https://arpanpathak.github.io/thor-thunder-tigress-platform/"><img src="https://img.shields.io/badge/Read_the_book-6dffa4?style=for-the-badge" alt="Read the book"/></a>
+  <a href="https://voltforge.tech"><img src="https://img.shields.io/badge/Live-voltforge.tech-58c4ff?style=for-the-badge" alt="Live at voltforge.tech"/></a>
+</p>
 
-### 🦇 Now Building: [openBatarangs](https://github.com/arpanpathak/openbatrangs)
+> Teaching a local model on a Jetson AGX Thor to **stop writing AI slop** — in prose and in Rust. Shipped: a 13,114-example training set (6.5M tokens, 35 sources), the `spark` slop checker that scores any model's output, and **the Cub** — a chat page + OpenAI/Anthropic-compatible API serving Qwen3.6 35B and Nemotron 3.5 Lightning on TensorRT-LLM, so tools like [openBatarangs](https://github.com/arpanpathak/openbatrangs) and Claude Code can code against it. The tigress fine-tunes next.
+
+### 📖 The Books
+
+<table>
+<tr>
+<td width="50%" align="center" valign="top">
+  <a href="https://github.com/arpanpathak/gpu-parallel-book">
+    <img src="https://raw.githubusercontent.com/arpanpathak/gpu-parallel-book/main/book/src/art/cover.svg" alt="GPU book cover" height="150"/>
+  </a><br/>
+  <b><a href="https://arpanpathak.github.io/gpu-parallel-book/">GPU Parallel Programming from First Principles</a></b><br/>
+  <sub>CUDA C++ and Rust (cuda-oxide) kernels side by side, clickable SVG architecture diagrams — warps, SMs, memory tiers. Reduction, scan, tiled matmul, image-processing capstone. Tested on Jetson AGX Thor &amp; Orin NX.</sub><br/><br/>
+  <a href="https://github.com/arpanpathak/gpu-parallel-book"><img src="https://img.shields.io/github/stars/arpanpathak/gpu-parallel-book?style=for-the-badge&color=ff7a45" alt="Stars"/></a>
+  <a href="https://arpanpathak.github.io/gpu-parallel-book/"><img src="https://img.shields.io/badge/Read_online-6dffa4?style=for-the-badge" alt="Read online"/></a>
+  <a href="https://github.com/arpanpathak/gpu-parallel-book"><img src="https://img.shields.io/badge/Tested_on-Jetson_AGX_Thor_%26_Orin_NX-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="Tested on Jetson"/></a>
+</td>
+<td width="50%" align="center" valign="top">
+  <b style="font-size:44px">📚</b><br/>
+  <b><a href="https://arpanpathak.github.io/cracking-the-systems-programming-interview/">Cracking the Systems Programming Interview</a></b><br/>
+  <sub>Code-first books &amp; labs for systems engineers: <i>Distributed Systems from the Ground Up</i> (28 chapters + a key-value store built in Rust), <i>Democratizing Linux: A Pipe Dream</i>, <i>GPU-Accelerated Kubernetes</i>, the Rust interview book, a Rust lab, and a Kubernetes operator — from the kernel up.</sub><br/><br/>
+  <a href="https://github.com/arpanpathak/cracking-the-systems-programming-interview"><img src="https://img.shields.io/github/stars/arpanpathak/cracking-the-systems-programming-interview?style=for-the-badge&color=ff7a45" alt="Stars"/></a>
+  <a href="https://arpanpathak.github.io/cracking-the-systems-programming-interview/"><img src="https://img.shields.io/badge/Read_online-6dffa4?style=for-the-badge" alt="Read online"/></a>
+  <a href="https://github.com/arpanpathak/cracking-the-systems-programming-interview"><img src="https://img.shields.io/github/license/arpanpathak/cracking-the-systems-programming-interview?style=for-the-badge&color=181717" alt="License"/></a>
+</td>
+</tr>
+</table>
+
+### 🦇 openBatarangs
 
 <p align="center">
   <a href="https://github.com/arpanpathak/openbatrangs">
-    <img src="https://raw.githubusercontent.com/arpanpathak/openbatrangs/main/assets/logo.svg" alt="openBatarangs logo" width="300"/>
+    <img src="https://raw.githubusercontent.com/arpanpathak/openbatrangs/main/assets/logo.svg" alt="openBatarangs logo" width="220"/>
   </a>
 </p>
 
-> **Agentic coding CLI for local models.** Auto-discovers the best Ollama model on your hardware, then reads, edits, and verifies code — no cloud, no manual model ops. Built for Jetson-class edge devices and every laptop that runs Ollama.
+<p align="center">
+  <a href="https://github.com/arpanpathak/openbatrangs"><img src="https://img.shields.io/github/stars/arpanpathak/openbatrangs?style=for-the-badge&color=ff7a45" alt="Stars"/></a>
+  <a href="https://github.com/arpanpathak/arpanpathak/raw/main/demo.webm"><img src="https://img.shields.io/badge/Watch_demo-ff7a45?style=for-the-badge" alt="Watch demo"/></a>
+  <a href="https://github.com/arpanpathak/openbatrangs/releases"><img src="https://img.shields.io/badge/Download_binaries-58c4ff?style=for-the-badge" alt="Download"/></a>
+  <a href="https://github.com/arpanpathak/openbatrangs/blob/main/README.md"><img src="https://img.shields.io/badge/Quickstart-6dffa4?style=for-the-badge" alt="Quickstart"/></a>
+</p>
+
+> **Agentic coding CLI for local models** — auto-discovers the best Ollama / TensorRT / llama.cpp model on Jetson and edge hardware, then reads, edits, and verifies code with tools. No cloud, no manual model ops.
+
+### 🚗 Driving CivicSense — shipped
 
 <p align="center">
-  <a href="https://github.com/arpanpathak/openbatrangs"><img src="https://img.shields.io/badge/GitHub-openBatarangs-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-  <a href="https://github.com/arpanpathak/arpanpathak/raw/main/demo.webm"><img src="https://img.shields.io/badge/▶%20Watch-Demo-ff7a45?style=for-the-badge" alt="Watch demo"/></a>
-  <a href="https://github.com/arpanpathak/openbatrangs/releases"><img src="https://img.shields.io/badge/Download-Binaries-58c4ff?style=for-the-badge" alt="Download"/></a>
-  <a href="https://github.com/arpanpathak/openbatrangs/blob/main/README.md"><img src="https://img.shields.io/badge/Readme-Quickstart-6dffa4?style=for-the-badge" alt="Readme"/></a>
+  <a href="https://github.com/arpanpathak/driving-civicsense-vision-model"><img src="https://img.shields.io/github/stars/arpanpathak/driving-civicsense-vision-model?style=for-the-badge&color=ff7a45" alt="Stars"/></a>
+  <a href="https://arpanpathak.github.io/driving-civicsense-vision-model/"><img src="https://img.shields.io/badge/Research_paper-58c4ff?style=for-the-badge" alt="Research paper"/></a>
 </p>
+
+> Edge-AI road safety, **100% on-device**: YOLOv8/v11 → TensorRT (~12 ms) on Jetson Orin, kinematic decision engine, Kalman + Deep SORT, voice alerts — zero video leaves the car. [vision model](https://github.com/arpanpathak/driving-civicsense-vision-model) · [pi-stream](https://github.com/arpanpathak/civicsense-pi-stream) · [stream-client](https://github.com/arpanpathak/civicsense-stream-client) · [companion](https://github.com/arpanpathak/civicsense-companion) · [data-crowd](https://github.com/arpanpathak/driving-civic-sense-data-crowd)
+
+### 📚 More books on the shelf
+
+[🕸️ eBPF from the Ground Up](https://github.com/arpanpathak/ebpf-rust-networking-book) · [📘 Modern C++ Memory-Safe Systems](https://github.com/arpanpathak/modern-cpp-systems-book) · [👁️ Seeing Machines](https://github.com/arpanpathak/seeing-machines-book) · [🎮 Bevy Physics](https://github.com/arpanpathak/bevy-physics-book) · [☸️ Kubernetes Operator Pattern](https://github.com/arpanpathak/kubernetes-operator-pattern) · [🥊 Coding Interview FightClub](https://github.com/arpanpathak/CodingInterviewFightClub_Hustle_600)
 
 ---
 
-### 🚗 Now Building: [Driving CivicSense](https://github.com/arpanpathak/driving-civicsense-vision-model)
+## 🚀 Featured Projects
 
-<p align="center">
-  <a href="https://github.com/arpanpathak/driving-civicsense-vision-model">
-    <img src="https://raw.githubusercontent.com/arpanpathak/driving-civicsense-vision-model/main/assets/logo.svg" alt="Driving CivicSense logo" width="260"/>
-  </a>
-</p>
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <b>🦇 <a href="https://github.com/arpanpathak/openbatrangs">openBatarangs</a></b><br/>
+      <sub>Rust · local agentic coding CLI</sub>
+    </td>
+    <td align="center" width="33%">
+      <b>🐯 <a href="https://github.com/arpanpathak/thor-thunder-tigress-platform">thor-thunder-tigress</a></b><br/>
+      <sub>Rust · stop AI slop on Jetson Thor</sub>
+    </td>
+    <td align="center" width="33%">
+      <b>⚡ <a href="https://github.com/arpanpathak/gpu-parallel-book">gpu-parallel-book</a></b><br/>
+      <sub>CUDA · Rust · 16-chapter book</sub><br/>
+      <img src="https://img.shields.io/github/stars/arpanpathak/gpu-parallel-book?style=flat-square" alt="Stars"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <b>📚 <a href="https://github.com/arpanpathak/cracking-the-systems-programming-interview">cracking-systems-interview</a></b><br/>
+      <sub>Books &amp; labs · distributed · Linux · K8s</sub>
+    </td>
+    <td align="center">
+      <b>🚗 <a href="https://github.com/arpanpathak/driving-civicsense-vision-model">civicsense-vision-model</a></b><br/>
+      <sub>Rust · on-device AI perception</sub><br/>
+      <img src="https://img.shields.io/github/stars/arpanpathak/driving-civicsense-vision-model?style=flat-square" alt="Stars"/>
+    </td>
+    <td align="center">
+      <b>🦀 <a href="https://github.com/arpanpathak/cuda-oxide-demo">cuda-oxide-demo</a></b><br/>
+      <sub>Rust · CUDA-Oxide · Jetson benchmarks</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <b>🕸️ <a href="https://github.com/arpanpathak/ebpf-rust-networking-book">ebpf-rust-networking-book</a></b><br/>
+      <sub>Rust · eBPF/Cilium/K8s book</sub>
+    </td>
+    <td align="center">
+      <b>📘 <a href="https://github.com/arpanpathak/modern-cpp-systems-book">modern-cpp-systems-book</a></b><br/>
+      <sub>C++ · memory-safe systems book</sub>
+    </td>
+    <td align="center">
+      <b>👁️ <a href="https://github.com/arpanpathak/seeing-machines-book">seeing-machines-book</a></b><br/>
+      <sub>Python → Rust · CV book</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <b>🎮 <a href="https://github.com/arpanpathak/bevy-physics-book">bevy-physics-book</a></b><br/>
+      <sub>Rust · physics in Bevy</sub>
+    </td>
+    <td align="center">
+      <b>🔍 <a href="https://github.com/arpanpathak/systems-programming-design-patterns">systems-patterns</a></b><br/>
+      <sub>Go · systems hands-on</sub><br/>
+      <img src="https://img.shields.io/github/stars/arpanpathak/systems-programming-design-patterns?style=flat-square" alt="Stars"/>
+    </td>
+    <td align="center">
+      <b>🧠 <a href="https://github.com/arpanpathak/AdvancedAlgorithmPatterns">AdvancedAlgoPatterns</a></b><br/>
+      <sub>Kotlin · DSA patterns</sub><br/>
+      <img src="https://img.shields.io/github/stars/arpanpathak/AdvancedAlgorithmPatterns?style=flat-square" alt="Stars"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <b>🥊 <a href="https://github.com/arpanpathak/CodingInterviewFightClub_Hustle_600">FightClub_600</a></b><br/>
+      <sub>Interview prep · 5 languages</sub><br/>
+      <img src="https://img.shields.io/github/stars/arpanpathak/CodingInterviewFightClub_Hustle_600?style=flat-square" alt="Stars"/>
+    </td>
+    <td align="center">
+      <b>📡 <a href="https://github.com/arpanpathak/jobsense-parker">jobsense-parker</a></b><br/>
+      <sub>Rust · job-hunt CLI</sub><br/>
+      <img src="https://img.shields.io/github/stars/arpanpathak/jobsense-parker?style=flat-square" alt="Stars"/>
+    </td>
+    <td align="center">
+      <b>🎸 <a href="https://github.com/arpanpathak/grungeGPT">grungeGPT</a></b><br/>
+      <sub>Rust · from-scratch GPT + BPE</sub>
+    </td>
+  </tr>
+</table>
 
-> **Edge-AI co-pilot for road safety.** 100% on-device perception, privacy-first, zero video leaves the car. Runs on NVIDIA Jetson Orin with TensorRT.
-
-<p align="center">
-  <a href="https://arpanpathak.github.io/driving-civicsense-vision-model/"><img src="https://img.shields.io/badge/📄-Research%20Paper-58c4ff?style=for-the-badge" alt="Research paper"/></a>
-  <a href="https://github.com/arpanpathak/driving-civicsense-vision-model"><img src="https://img.shields.io/badge/GitHub-Main%20Repo-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-  <a href="https://arpanpathak.github.io/"><img src="https://img.shields.io/badge/Portfolio-Live%20Demo-6dffa4?style=for-the-badge" alt="Portfolio"/></a>
-</p>
-
-| Module | What it does |
-|---|---|
-| [driving-civicsense-vision-model](https://github.com/arpanpathak/driving-civicsense-vision-model) | Main repo: YOLOv8/v11 INT8 → TensorRT (~12 ms), kinematic decision engine, Kalman + Deep SORT, voice alerts, research paper + ISO 26262 safety study |
-| [civicsense-pi-stream](https://github.com/arpanpathak/civicsense-pi-stream) | Capture layer: Rust MJPEG + UDP live dash-cam on Raspberry Pi Zero 2 W — hotspot mode, ~50 MB RAM |
-| [civicsense-stream-client](https://github.com/arpanpathak/civicsense-stream-client) | Perception layer: pure-Rust YOLOv8n with HuggingFace Candle — no Python, no ONNX Runtime |
-| [civicsense-companion](https://github.com/arpanpathak/civicsense-companion) | Human layer: Kotlin Multiplatform app (Compose + SwiftUI) with gRPC real-time alerts |
-| [driving-civic-sense-data-crowd](https://github.com/arpanpathak/driving-civic-sense-data-crowd) | Data layer: MIT-licensed 7-class YOLO labels, ground-truth validators, public-dataset aggregation |
-
-### 🦀 New: [cuda-oxide-demo](https://github.com/arpanpathak/cuda-oxide-demo)
-
-> Idiomatic CUDA kernels written in Rust with CUDA-Oxide, benchmarked on
-> Jetson Orin: SAXPY, dot product, tiled matmul, and a Laplace/Jacobi PDE
-> solver. Includes a detailed article and a GitHub Pages book chapter.
-
-| Link | Where |
-|---|---|
-| [cuda-oxide-demo](https://github.com/arpanpathak/cuda-oxide-demo) | Main repository |
-| [CUDA_RUST_JETSON_BENCHMARKS.md](https://github.com/arpanpathak/cuda-oxide-demo/blob/main/CUDA_RUST_JETSON_BENCHMARKS.md) | Detailed article |
-| [GPU Parallel Programming Book](https://arpanpathak.github.io/gpu-parallel-book/) | Book chapter: Benchmarking CUDA-Oxide on Jetson Orin |
-
----
-
-### ⚡ Quick Facts
-
-- 🔭 **Now building:** [openBatarangs](https://github.com/arpanpathak/openbatrangs) — local-first agentic coding CLI for Jetson & Ollama · [Driving CivicSense](https://github.com/arpanpathak/driving-civicsense-vision-model) — edge-AI road safety · [grungeGPT](https://github.com/arpanpathak/grungeGPT) — educational from-scratch GPT in Rust
-- 🌱 **Deep-diving:** CUDA-Oxide, eBPF/Cilium, edge LLM inference, lock-free systems
-- 💬 **Ask me about:** Rust, systems programming, GPU kernels, local LLMs, Kubernetes
-- 📫 **Reach me:** [arpan.pathak47@gmail.com](mailto:arpan.pathak47@gmail.com)
+> …plus 50+ more repos: [kube-goAt](https://github.com/arpanpathak/kube-goAt), [zero-trust-networking](https://github.com/arpanpathak/zero-trust-networking-examples), [andross](https://github.com/arpanpathak/andross), [multicloud-distiller](https://github.com/arpanpathak/deepseekcoder-multicloud-distiller), distributed systems, ML notebooks, music &amp; audio, websocket scaling, NFC + e-ink hardware, and a Neovim agentic IDE.
 
 ---
 
@@ -149,155 +221,6 @@ $ philosophy
 | **Distributed** | Kafka, Flink, Spark, consensus/replication/sharding, CDC |
 | **ML/AI** | PyTorch, TensorFlow, BERT, ONNX Runtime, Ollama, edge inference, CUDA |
 | **Cloud** | AWS, GCP, Azure, Kubernetes (EKS/AKS), Terraform, Kubebuilder |
-
----
-
-### 🚀 Featured Projects
-
-<table>
-  <tr>
-    <td align="center" width="33%">
-      <b>🦇</b><br/>
-      <b><a href="https://github.com/arpanpathak/openbatrangs">openBatarangs</a></b><br/>
-      <sub>Rust · local agentic coding CLI</sub><br/>
-      <sub><a href="https://github.com/arpanpathak/arpanpathak/raw/main/demo.webm">▶ watch demo</a></sub>
-    </td>
-    <td align="center" width="33%">
-      <b>⚡</b><br/>
-      <b><a href="https://github.com/arpanpathak/gpu-parallel-book">gpu-parallel-book</a></b><br/>
-      <sub>CUDA · GPU · Rust · 16-chapter book</sub>
-    </td>
-    <td align="center" width="33%">
-      <b>🚗</b><br/>
-      <b><a href="https://github.com/arpanpathak/driving-civicsense-vision-model">civicsense-vision-model</a></b><br/>
-      <sub>Rust · on-device AI perception</sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <b>📚</b><br/>
-      <b><a href="https://github.com/arpanpathak/seeing-machines-book">seeing-machines-book</a></b><br/>
-      <sub>Python → Rust · CV book</sub>
-    </td>
-    <td align="center">
-      <b>🐘</b><br/>
-      <b><a href="https://github.com/arpanpathak/deepseekcoder-multicloud-distiller">multicloud-distiller</a></b><br/>
-      <sub>Rust · distill LLMs on 6 clouds</sub>
-    </td>
-    <td align="center">
-      <b>🎮</b><br/>
-      <b><a href="https://github.com/arpanpathak/bevy-physics-book">bevy-physics-book</a></b><br/>
-      <sub>Rust · physics in Bevy</sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <b>☸️</b><br/>
-      <b><a href="https://github.com/arpanpathak/kube-goAt">kube-goAt</a></b><br/>
-      <sub>Go · Kubernetes IaC</sub>
-    </td>
-    <td align="center">
-      <b>🎛️</b><br/>
-      <b><a href="https://github.com/arpanpathak/andross">andross</a></b><br/>
-      <sub>C++20/23 · low-latency Vision/AR SDK</sub>
-    </td>
-    <td align="center">
-      <b>🔍</b><br/>
-      <b><a href="https://github.com/arpanpathak/systems-programming-design-patterns">systems-patterns</a></b><br/>
-      <sub>Go ⭐ · systems hands-on</sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <b>🔐</b><br/>
-      <b><a href="https://github.com/arpanpathak/zero-trust-networking-examples">zero-trust-networking</a></b><br/>
-      <sub>Go · Cilium · K8s zero-trust</sub>
-    </td>
-    <td align="center">
-      <b>🥊</b><br/>
-      <b><a href="https://github.com/arpanpathak/CodingInterviewFightClub_Hustle_600">FightClub_600</a></b><br/>
-      <sub>Interview prep · 5 languages</sub>
-    </td>
-    <td align="center">
-      <b>🧠</b><br/>
-      <b><a href="https://github.com/arpanpathak/AdvancedAlgorithmPatterns">AdvancedAlgoPatterns</a></b><br/>
-      <sub>Kotlin · DSA patterns</sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <b>🦀</b><br/>
-      <b><a href="https://github.com/arpanpathak/jobsense-parker">jobsense-parker</a></b><br/>
-      <sub>Rust · job-hunt CLI</sub>
-    </td>
-    <td align="center">
-      <b>📘</b><br/>
-      <b><a href="https://github.com/arpanpathak/modern-cpp-systems-book">modern-cpp-systems-book</a></b><br/>
-      <sub>C++ · memory-safe systems book</sub>
-    </td>
-    <td align="center">
-      <b>🕸️</b><br/>
-      <b><a href="https://github.com/arpanpathak/ebpf-rust-networking-book">ebpf-rust-networking-book</a></b><br/>
-      <sub>Rust · eBPF/Cilium/K8s book</sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <b>🎸</b><br/>
-      <b><a href="https://github.com/arpanpathak/grungeGPT">grungeGPT</a></b><br/>
-      <sub>Rust · from-scratch GPT + BPE + GGUF/Ollama</sub>
-    </td>
-    <td colspan="2" align="center">
-      <b>🦀</b><br/>
-      <b><a href="https://github.com/arpanpathak/cuda-oxide-demo">cuda-oxide-demo</a></b><br/>
-      <sub>Rust · CUDA-Oxide · Jetson CPU-vs-GPU benchmarks + Laplace/Jacobi solver</sub><br/>
-      <sub><a href="https://arpanpathak.github.io/gpu-parallel-book/">book chapter</a></sub>
-    </td>
-  </tr>
-</table>
-
-> …plus [40+ more repos](https://github.com/arpanpathak?tab=repositories): distributed systems, ML notebooks, music & audio, websocket scaling, QUIC tools, NFC + e-ink hardware, and a Neovim agentic IDE.
-
-> 🏆 **Flagships:** [openBatarangs](https://github.com/arpanpathak/openbatrangs) (local-first agentic coding CLI for Jetson + Ollama) · [driving-civicsense-vision-model](https://github.com/arpanpathak/driving-civicsense-vision-model) (edge-AI road safety, 100% on-device, research paper + submodule pipeline) · [gpu-parallel-book](https://github.com/arpanpathak/gpu-parallel-book) (CUDA, GPU & parallel programming, Rust + CUDA-Oxide, 16 chapters) · [seeing-machines-book](https://github.com/arpanpathak/seeing-machines-book) (computer vision, Python → bare metal) · [deepseekcoder-multicloud-distiller](https://github.com/arpanpathak/deepseekcoder-multicloud-distiller) (distill LLMs across 6 clouds with full data sovereignty)
-
-### 🎵 Music & Audio
-
-<table>
-  <tr>
-    <td align="center" width="33%">
-      <b>🚿</b><br/>
-      <b><a href="https://github.com/arpanpathak/bathroom-singing-cli">bathroom-singing-cli</a></b><br/>
-      <sub>TUI studio · bathroom vocals → production</sub>
-    </td>
-    <td align="center" width="33%">
-      <b>🌀</b><br/>
-      <b><a href="https://github.com/arpanpathak/nirvoid">nirvoid</a></b><br/>
-      <sub>Rust · audio processing library</sub>
-    </td>
-    <td align="center" width="33%">
-      <b>🎧</b><br/>
-      <b><a href="https://github.com/arpanpathak/audio-source-seperation">audio-stem-splitter</a></b><br/>
-      <sub>Rust · vocals → stems (Demucs)</sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <b>🎼</b><br/>
-      <b><a href="https://github.com/arpanpathak/generative_music_art_poetry_models">gen-music-models</a></b><br/>
-      <sub>generative ML · music, art, poetry</sub>
-    </td>
-    <td align="center">
-      <b>🎛️</b><br/>
-      <b><a href="https://github.com/arpanpathak/audio_ml">audio-ml</a></b><br/>
-      <sub>audio EDA · ML models</sub>
-    </td>
-    <td align="center">
-      <b>➕</b><br/>
-      <b><a href="https://github.com/arpanpathak?tab=repositories">more repos</a></b><br/>
-      <sub>systems · ML · hardware</sub>
-    </td>
-  </tr>
-</table>
 
 ---
 
@@ -320,4 +243,4 @@ $ philosophy
 
 ---
 
-*Currently: engineering systems that make AI fast, safe, and affordable — building openBatarangs for local-first agentic coding — and writing books about how it all works.*
+*Currently: teaching the Thor Tigress Cub on a Jetson AGX Thor to stop writing AI slop — shipping openBatarangs — and writing books that teach it all from first principles.*
