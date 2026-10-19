@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <i>"Never settle, always regret, then refactor the mess."</i> 🐯
+  <i>"Never settle, always regret, then refactor the mess."</i><br/>
   <i>"Age gele baaghe khai"</i> (আগে গেলে বাঘে খায়): rush ahead, and the tiger eats you.
 </p>
 
@@ -33,6 +33,7 @@
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
   <img src="https://img.shields.io/badge/eBPF-0A0A0A?style=for-the-badge&logo=linux&logoColor=white" alt="eBPF"/>
   <img src="https://img.shields.io/badge/Ollama-Local%20LLMs-181717?style=for-the-badge&logo=ollama&logoColor=white" alt="Ollama"/>
+  <img src="https://img.shields.io/badge/vLLM-2F58CD?style=for-the-badge&logo=vllm&logoColor=white" alt="vLLM"/>
 </p>
 
 <p align="center">
@@ -62,32 +63,40 @@
   <a href="https://voltforge.tech"><img src="https://img.shields.io/badge/Live-voltforge.tech-58c4ff?style=for-the-badge" alt="Live at voltforge.tech"/></a>
 </p>
 
-> Teaching a local model on a Jetson AGX Thor to **stop writing AI slop**, in prose and in Rust. Shipped: a 13,114-example training set (6.5M tokens, 35 sources), the `spark` slop checker that scores any model's output, and **the Cub**, a chat page + OpenAI/Anthropic-compatible API serving Qwen3.6 35B and Nemotron 3.5 Lightning on TensorRT-LLM, so tools like [openBatarangs](https://github.com/arpanpathak/openbatrangs) and Claude Code can code against it. The tigress fine-tunes next.
+> **The tigress trains.** `spark` scores any model's answers for slop and the five Rust rules: no `unwrap`, real error enums, doc comments, no comments inside function bodies, no index loops. `thor-hammer-trainer` built the 13,114-example training set (6.5M tokens, 35 sources), `reinforcer` is the human review page, and `lasso` makes teaching conversations from books and a teacher model.
+>
+> **The cub serves.** On a Jetson AGX Thor (128 GB unified memory, 273 GB/s): Nemotron 3 Nano 30B-A3B at 8-bit with a 1M-token context, about 53 tokens/s, four replies at once. Web chat with model picker, thinking panel and web search, plus OpenAI and Anthropic-compatible APIs so coding agents like [openBatarangs](https://github.com/arpanpathak/openbatrangs) and Claude Code can work on the Thor. One encrypted key per person, live at [voltforge.tech](https://voltforge.tech).
+>
+> **The book** covers all of it in 30+ chapters: the checker, the data, serving on TensorRT Edge-LLM and llama.cpp, security, keyring crypto, tool calling, memory and context, and a cluster of five Thors. Fine-tuning is next, scored before and after with `spark`'s own numbers.
 
 ### 📖 The Books
 
-<table>
-<tr>
-<td width="50%" align="center" valign="top">
-  <a href="https://github.com/arpanpathak/gpu-parallel-book">
-    <img src="https://raw.githubusercontent.com/arpanpathak/gpu-parallel-book/main/book/src/art/cover.svg" alt="GPU book cover" height="150"/>
-  </a><br/>
-  <b><a href="https://arpanpathak.github.io/gpu-parallel-book/">GPU Parallel Programming from First Principles</a></b><br/>
-  <sub>CUDA C++ and Rust (cuda-oxide) kernels side by side, clickable SVG architecture diagrams: warps, SMs, memory tiers. Reduction, scan, tiled matmul, image-processing capstone. Tested on Jetson AGX Thor &amp; Orin NX.</sub><br/><br/>
+<p align="center">
+  <a href="https://github.com/arpanpathak/gpu-parallel-book"><img src="https://raw.githubusercontent.com/arpanpathak/gpu-parallel-book/main/book/src/art/cover.svg" alt="GPU book cover" height="140"/></a>
+</p>
+
+**⚡ [GPU Parallel Programming from First Principles](https://arpanpathak.github.io/gpu-parallel-book/)**
+
+CUDA C++ and Rust (cuda-oxide) kernels side by side, clickable SVG architecture diagrams: warps, SMs, memory tiers. Reduction, scan, tiled matmul, image-processing capstone. Tested on Jetson AGX Thor and Orin NX.
+
+<p align="center">
   <a href="https://github.com/arpanpathak/gpu-parallel-book"><img src="https://img.shields.io/github/stars/arpanpathak/gpu-parallel-book?style=for-the-badge&color=ff7a45" alt="Stars"/></a>
   <a href="https://arpanpathak.github.io/gpu-parallel-book/"><img src="https://img.shields.io/badge/Read_online-6dffa4?style=for-the-badge" alt="Read online"/></a>
   <a href="https://github.com/arpanpathak/gpu-parallel-book"><img src="https://img.shields.io/badge/Tested_on-Jetson_AGX_Thor_%26_Orin_NX-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="Tested on Jetson"/></a>
-</td>
-<td width="50%" align="center" valign="top">
-  <b style="font-size:44px">📚</b><br/>
-  <b><a href="https://arpanpathak.github.io/cracking-the-systems-programming-interview/">Cracking the Systems Programming Interview</a></b><br/>
-  <sub>Code-first books &amp; labs for systems engineers: <i>Distributed Systems from the Ground Up</i> (28 chapters + a key-value store built in Rust), <i>Democratizing Linux: A Pipe Dream</i>, <i>GPU-Accelerated Kubernetes</i>, the Rust interview book, a Rust lab, and a Kubernetes operator.</sub><br/><br/>
-  <a href="https://github.com/arpanpathak/cracking-the-systems-programming-interview"><img src="https://img.shields.io/github/stars/arpanpathak/cracking-the-systems-programming-interview?style=for-the-badge&color=ff7a45" alt="Stars"/></a>
-  <a href="https://arpanpathak.github.io/cracking-the-systems-programming-interview/"><img src="https://img.shields.io/badge/Read_online-6dffa4?style=for-the-badge" alt="Read online"/></a>
+</p>
+
+**📚 [Cracking the Systems Programming Interview](https://arpanpathak.github.io/cracking-the-systems-programming-interview/)**: books and labs in one repo
+
+- **[Distributed Systems from the Ground Up](https://arpanpathak.github.io/cracking-the-systems-programming-interview/distributed-systems-from-the-ground-up/)**: 28 chapters. Part 1 builds a replicated, sharded key-value store in Rust: write-ahead log, leader replication, Raft election, group commit, each measured against the failures it claims to survive. Part 2: 22 system designs with runnable simulations.
+- **[Democratizing Linux: A Pipe Dream](https://arpanpathak.github.io/cracking-the-systems-programming-interview/democratizing-linux/)**: 13 chapters that rebuild kernel mechanisms in user space, every program in Go and Rust: pipes, file descriptors, a shell, signals, CPU scheduling, virtual memory, epoll, TCP, namespaces, cgroups, a container.
+- **[GPU-Accelerated Kubernetes](https://arpanpathak.github.io/cracking-the-systems-programming-interview/gpu-accelerated-kubernetes/)**: informers from scratch, a GPU job controller on controller-runtime and kube-rs, how GPUs are shared (time-slicing, MPS, MIG, vGPU, DRA), and a kind cluster whose pods use a real GPU. Go and Rust.
+- **[The interview book](https://arpanpathak.github.io/cracking-the-systems-programming-interview/book/)**: 19 chapters in six parts: tools, whiteboard algorithms, memory and the machine, concurrency, the network, interview day.
+- **Labs**: 31 Rust modules and 22 programs (hand-rolled async runtime, epoll server, TCP and HTTP servers) with benchmarks and an 8-page report, a Kubebuilder `GpuWorkload` operator, 14 study guides.
+
+<p align="center">
+  <a href="https://github.com/arpanpathak/cracking-the-systems-programming-interview"><img src="https://img.shields.io/badge/GitHub_repo-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repo"/></a>
   <a href="https://github.com/arpanpathak/cracking-the-systems-programming-interview"><img src="https://img.shields.io/github/license/arpanpathak/cracking-the-systems-programming-interview?style=for-the-badge&color=181717" alt="License"/></a>
-</td>
-</tr>
-</table>
+</p>
 
 ### 🦇 openBatarangs
 
