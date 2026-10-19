@@ -86,7 +86,7 @@
     <text x="620" y="235" fill="#3FB950"><tspan fill="#3FB950">~ $ </tspan><tspan fill="#E6EDF6">cat wisdom.txt</tspan></text>
     <text x="620" y="260" fill="#94A3B8">"Age gele baaghe khai": rush ahead, the tiger eats</text>
     <text x="620" y="285" fill="#3FB950"><tspan fill="#3FB950">~ $ </tspan><tspan fill="#E6EDF6">thor-tigress-serve --list</tspan></text>
-    <text x="620" y="310" fill="#8B9BB4">qwen3.6-35b <tspan fill="#3FB950">✓</tspan>  nemotron-3.5 <tspan fill="#3FB950">✓</tspan> <tspan fill="#5A6B84">· TensorRT-LLM</tspan></text>
+    <text x="620" y="310" fill="#8B9BB4">vllm <tspan fill="#3FB950">✓</tspan> ollama <tspan fill="#3FB950">✓</tspan> trt-edge-llm <tspan fill="#3FB950">✓</tspan> llama.cpp <tspan fill="#3FB950">✓</tspan> sglang <tspan fill="#3FB950">✓</tspan></text>
     <text x="620" y="335" fill="#3FB950">~ $ </text>
     <rect x="658" y="322" width="9" height="16" rx="1.5" fill="#E6EDF6"/>
   </g>

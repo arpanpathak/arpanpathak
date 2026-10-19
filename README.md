@@ -47,7 +47,7 @@
 
 ## ⚡ Flagships
 
-### 🐯 Thor Thunder Tigress Platform: the cub lives on a Jetson AGX Thor
+### 🐯 Thor Thunder Tigress Platform: edge GPU cluster, data curation, multi-engine serving
 
 <p align="center">
   <a href="https://github.com/arpanpathak/thor-thunder-tigress-platform">
@@ -63,11 +63,21 @@
   <a href="https://voltforge.tech"><img src="https://img.shields.io/badge/Live-voltforge.tech-58c4ff?style=for-the-badge" alt="Live at voltforge.tech"/></a>
 </p>
 
-> **The tigress trains.** `spark` scores any model's answers for slop and the five Rust rules: no `unwrap`, real error enums, doc comments, no comments inside function bodies, no index loops. `thor-hammer-trainer` built the 13,114-example training set (6.5M tokens, 35 sources), `reinforcer` is the human review page, and `lasso` makes teaching conversations from books and a teacher model.
+> **Full-stack hardware and software platform** to build a distributed edge GPU cluster, curate data to fine-tune LLMs, and serve them through a multi-engine inference layer: **vLLM, Ollama, TensorRT Edge LLM, llama.cpp, SGLang**.
 >
-> **The cub serves.** On a Jetson AGX Thor (128 GB unified memory, 273 GB/s): Nemotron 3 Nano 30B-A3B at 8-bit with a 1M-token context, about 53 tokens/s, four replies at once. Web chat with model picker, thinking panel and web search, plus OpenAI and Anthropic-compatible APIs so coding agents like [openBatarangs](https://github.com/arpanpathak/openbatrangs) and Claude Code can work on the Thor. One encrypted key per person, live at [voltforge.tech](https://voltforge.tech).
+> **Data curation.** 13,114 training examples (6.5M tokens, 35 sources), checked by `spark` against slop and the five Rust rules, with before/after scoring for the fine-tune.
 >
-> **The book** covers all of it in 30+ chapters: the checker, the data, serving on TensorRT Edge-LLM and llama.cpp, security, keyring crypto, tool calling, memory and context, and a cluster of five Thors. Fine-tuning is next, scored before and after with `spark`'s own numbers.
+> **Secured hosting, bring your own domain.** One encrypted key per person. A launch note states what is stored and what is not. voltforge.tech forwards to the cluster over Tailscale.
+>
+> **OpenAI-compatible model routing that every harness plugs into**: Claude Code, openBatarangs, OpenCode, all on one API. The 30+ chapter book covers the cluster, the checker, the data pipeline, serving, security and keyring crypto.
+
+<p align="center">
+  <img src="https://img.shields.io/badge/vLLM-2F58CD?style=flat-square&logo=vllm&logoColor=white" alt="vLLM"/>
+  <img src="https://img.shields.io/badge/Ollama-181717?style=flat-square&logo=ollama&logoColor=white" alt="Ollama"/>
+  <img src="https://img.shields.io/badge/TensorRT_Edge_LLM-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="TensorRT Edge LLM"/>
+  <img src="https://img.shields.io/badge/llama.cpp-3A3A3A?style=flat-square" alt="llama.cpp"/>
+  <img src="https://img.shields.io/badge/SGLang-4D6BFE?style=flat-square" alt="SGLang"/>
+</p>
 
 ### 📖 The Books
 
@@ -77,7 +87,7 @@
 
 **⚡ [GPU Parallel Programming from First Principles](https://arpanpathak.github.io/gpu-parallel-book/)**
 
-CUDA C++ and Rust (cuda-oxide) kernels side by side, clickable SVG architecture diagrams: warps, SMs, memory tiers. Reduction, scan, tiled matmul, image-processing capstone. Tested on Jetson AGX Thor and Orin NX.
+16 chapters from the mathematics of parallelism to real kernels: Amdahl, Gustafson, the roofline model, warps, streaming multiprocessors, the memory hierarchy. CUDA C++ kernels and the same kernels in Rust with cuda-oxide. Reduction, scan, histogram, tiled matmul, an image-processing capstone, profiling with Nsight Compute. Every program run on a Jetson AGX Thor (sm_110) and Orin NX (sm_87).
 
 <p align="center">
   <a href="https://github.com/arpanpathak/gpu-parallel-book"><img src="https://img.shields.io/github/stars/arpanpathak/gpu-parallel-book?style=for-the-badge&color=ff7a45" alt="Stars"/></a>
@@ -140,7 +150,7 @@ CUDA C++ and Rust (cuda-oxide) kernels side by side, clickable SVG architecture 
     </td>
     <td align="center" width="33%">
       <b>🐯 <a href="https://github.com/arpanpathak/thor-thunder-tigress-platform">thor-thunder-tigress</a></b><br/>
-      <sub>Rust · stop AI slop on Jetson Thor</sub>
+      <sub>Rust · edge GPU cluster · multi-engine serving</sub>
     </td>
     <td align="center" width="33%">
       <b>⚡ <a href="https://github.com/arpanpathak/gpu-parallel-book">gpu-parallel-book</a></b><br/>
