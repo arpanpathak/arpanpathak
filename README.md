@@ -79,6 +79,28 @@
   <img src="https://img.shields.io/badge/SGLang-4D6BFE?style=flat-square" alt="SGLang"/>
 </p>
 
+### 🎸 StaleyNET: music from a sentence, from scratch in Rust
+
+<p align="center">
+  <a href="https://github.com/arpanpathak/staleynet">
+    <img src="https://raw.githubusercontent.com/arpanpathak/staleynet/main/docs/assets/cover.svg" alt="StaleyNET cover: a rusted chain link around an animated staircase of audio tokens, with the words Music from a sentence" width="100%"/>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/arpanpathak/staleynet"><img src="https://img.shields.io/github/stars/arpanpathak/staleynet?style=for-the-badge&color=ff7a45" alt="Stars"/></a>
+  <a href="https://github.com/arpanpathak/staleynet/blob/main/docs/assets/paper-preprint.pdf"><img src="https://img.shields.io/badge/Paper-58c4ff?style=for-the-badge" alt="Paper"/></a>
+  <a href="https://arpanpathak.github.io/staleynet/"><img src="https://img.shields.io/badge/Read_the_book-6dffa4?style=for-the-badge" alt="Read the book"/></a>
+  <a href="https://huggingface.co/arpanpathak/staleynet-checkpoints"><img src="https://img.shields.io/badge/🤗_Checkpoints-FFD21E?style=for-the-badge" alt="Checkpoints on Hugging Face"/></a>
+  <a href="https://huggingface.co/datasets/arpanpathak/staleynet-data"><img src="https://img.shields.io/badge/🤗_Dataset-FFD21E?style=for-the-badge" alt="Dataset on Hugging Face"/></a>
+</p>
+
+> **Text-prompted music generation with singing.** A short description such as *"grunge rock, raw male voice"*, optionally with lyrics, becomes a waveform.
+>
+> **Every stage from scratch, no pretrained component.** Log-mel spectrogram, residual k-means audio tokenizer, a Transformer with hand-derived gradients, the decoder and a neural vocoder, all in Rust. The GPU kernels are compiled from Rust to PTX with NVIDIA's **cuda-oxide**.
+>
+> **Trained on two embedded computers**, a Jetson Orin NX (16 GB) and a Jetson AGX Thor (128 GB), with every stage measured on its own: what limits the sound, how often each song is seen, and when the model starts to overfit. Written up as a paper and a book.
+
 ### 📖 The Books
 
 <p align="center">
@@ -169,8 +191,8 @@
       <img src="https://img.shields.io/github/stars/arpanpathak/driving-civicsense-vision-model?style=flat-square" alt="Stars"/>
     </td>
     <td align="center">
-      <b>🦀 <a href="https://github.com/arpanpathak/cuda-oxide-demo">cuda-oxide-demo</a></b><br/>
-      <sub>Rust · CUDA-Oxide · Jetson benchmarks</sub>
+      <b>🎸 <a href="https://github.com/arpanpathak/staleynet">staleynet</a></b><br/>
+      <sub>Rust · cuda-oxide · music generation from scratch</sub>
     </td>
   </tr>
   <tr>
@@ -221,7 +243,7 @@
   </tr>
 </table>
 
-> …plus 50+ more repos: [kube-goAt](https://github.com/arpanpathak/kube-goAt), [zero-trust-networking](https://github.com/arpanpathak/zero-trust-networking-examples), [andross](https://github.com/arpanpathak/andross), [multicloud-distiller](https://github.com/arpanpathak/deepseekcoder-multicloud-distiller), distributed systems, ML notebooks, music &amp; audio, websocket scaling, NFC + e-ink hardware, and a Neovim agentic IDE.
+> …plus 50+ more repos: [cuda-oxide-demo](https://github.com/arpanpathak/cuda-oxide-demo), [kube-goAt](https://github.com/arpanpathak/kube-goAt), [zero-trust-networking](https://github.com/arpanpathak/zero-trust-networking-examples), [andross](https://github.com/arpanpathak/andross), [multicloud-distiller](https://github.com/arpanpathak/deepseekcoder-multicloud-distiller), distributed systems, ML notebooks, music &amp; audio, websocket scaling, NFC + e-ink hardware, and a Neovim agentic IDE.
 
 ---
 
@@ -257,4 +279,4 @@
 
 ---
 
-*Currently: teaching the Thor Tigress Cub on a Jetson AGX Thor to stop writing AI slop, shipping openBatarangs, and writing books that teach it all from first principles.*
+*Currently: training StaleyNET to sing on a Jetson AGX Thor, teaching the Thor Tigress Cub to stop writing AI slop, shipping openBatarangs, and writing books that teach it all from first principles.*
